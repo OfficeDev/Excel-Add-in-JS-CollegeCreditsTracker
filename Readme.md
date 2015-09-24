@@ -40,7 +40,7 @@ The simplest way to deploy and test your add-in is to copy the files to a networ
 
     d.  Click the **Create College Credits Planner** button. This create the college credits tracker in the active sheet as shown in this diagram. 
     
-  ![College Credits Tracker Sample](images/CollegeCreditsTracker_tracker.png) 
+  ![College Credits Tracker Sample](images/CollegeCreditsTracker_tracker.PNG)
 
     e.  Add some courses using the **Add a course** tab and see how the data and the chart changes dynamically.
     
@@ -52,7 +52,7 @@ The simplest way to deploy and test your add-in is to copy the files to a networ
 
 3.  Click the **Create College Credits Planner** button. This create the college credits tracker in the active sheet as shown in this diagram. 
     
- ![College Credits Tracker Sample](images/CollegeCreditsTracker_tracker.png) 
+  ![College Credits Tracker Sample](images/CollegeCreditsTracker_tracker.PNG) 
   
 4. Add some courses using the **Add a course** tab and see how the data and the chart changes dynamically.
 
