@@ -1,0 +1,119 @@
+﻿<!-- Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license.
+    See full license at the bottom of this file. -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<title>College Credits Tracker</title>
+
+	<script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.4.min.js"></script>
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/blitzer/jquery-ui.css">
+	<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+	<link href="../../Content/Office.css" rel="stylesheet" type="text/css" />
+	<script src="https://appsforoffice.microsoft.com/lib/1.1/hosted/office.js" type="text/javascript"></script>
+
+	<!-- To enable offline debugging using a local reference to Office.js, use:                        -->
+	<!-- <script src="../../Scripts/Office/MicrosoftAjax.js" type="text/javascript"></script>  -->
+	<!-- <script src="../../Scripts/Office/1.1/office.js" type="text/javascript"></script>  -->
+
+	<link href="../App.css" rel="stylesheet" type="text/css" />
+	<script src="../App.js" type="text/javascript"></script>
+
+	<link href="Home.css" rel="stylesheet" type="text/css" />
+	<script src="Home.js" type="text/javascript"></script>
+</head>
+<body>
+
+	<div id="tabs">
+		<ul>
+			<li><a href="#tabs-1">Contoso University</a></li>
+			<li><a href="#tabs-2">Add a course</a></li>
+		</ul>
+		<div id="tabs-1">
+			<h2 class="demoHeaders">Welcome!</h2>
+			<p>
+				Our credit planner is an effective tool to use to ensure you graduate on time. Use it to plan
+				for your semesters and make sure you are taking the right classes at the right time in your college journey.
+				You can easily adjust courses in your future semesters to maintain your plan, without missing degree requirements.
+			</p>
+			<br />
+			<button class="click-button" id="generate-planner">Create College Credits Planner</button>
+		</div>
+		<div id="tabs-2">
+			<h2 class="demoHeaders">Add a Course</h2>
+			<br />
+			<label for="course-name">Course name:</label>
+			<select class="select-menu right" id="course-name">
+				<option value="nil">Select</option>
+			</select>
+			<br />
+			<br />
+			<hr />
+			<label>Course ID: </label>
+			<input class="right" type="text" id="course-id" />
+			<br />
+			<br />
+			<label>Credit type:</label>
+			<input class="right" type="text" id="credit-type" />
+			<br />
+			<br />
+			<label>Credits: </label>
+			<input type="number" id="credits" class="numberField right" min="1" max="999" maxlength="3" />
+			<br />
+			<br />
+			<hr />
+			<label for="semester">Semester: </label>
+			<select class="select-menu right" id="semester">
+				<option value="nil" selected="selected">Select</option>
+				<option value="Semester 1">Semester 1</option>
+				<option value="Semester 2">Semester 2</option>
+				<option value="Semester 3">Semester 3</option>
+				<option value="Semester 4">Semester 4</option>
+				<option value="Semester 5">Semester 5</option>
+				<option value="Semester 6">Semester 6</option>
+				<option value="Semester 7">Semester 7</option>
+				<option value="Semester 8">Semester 8</option>
+			</select>
+			<br />
+			<br />
+			<label>Completed? </label>
+			<span class="right">
+				<input type="radio" name="completed" id="yes" value="Yes" /><label for="yes">Yes</label>
+				<input type="radio" name="completed" id="no" value="No" checked="checked" /><label for="no">No</label>
+			</span>
+			<br />
+			<br />
+			<br />
+			<br />
+			<button class="click-button" id="add-course">Add New Course</button>
+		</div>
+	</div>
+</body>
+</html>
+<!--
+Excel-Add-in-JS-CollegeCreditsTracker, https://github.com/OfficeDev/Excel-Add-in-JS-CollegeCreditsTracker
+
+Copyright (c) Microsoft Corporation
+
+All rights reserved.
+
+MIT License:
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
+associated documentation files (the "Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the
+following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial
+portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT
+SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+USE OR OTHER DEALINGS IN THE SOFTWARE.
+-->

@@ -1,0 +1,39 @@
+﻿/* Page-specific styling */
+
+p {
+    font-family: 'Segoe UI';
+    font-size: 14px;
+}
+
+.right {
+    position: absolute;
+    left: 35%;
+}
+
+
+#generate-planner {
+    position: relative;
+    left: 12%;
+}
+
+#add-course {
+    position: relative;
+    left: 30%;
+}
+
+#credits {
+    width: 50px;
+}
+
+
+#tabs {
+    height: 550px;
+}
+
+#course-name {
+    width: 225px;
+}
+
+#semester {
+    width: 150px;
+}
