@@ -11,9 +11,9 @@ Dieses Aufgabenbereich-Add-In zeigt, wie mithilfe der JavaScript-APIs in Excel 2
 
 Am einfachsten können Sie Ihr Add-In bereitstellen und testen, indem Sie die Dateien in eine Netzwerkfreigabe kopieren.
 
-1.  Erstellen Sie einen Ordner in einer Netzwerkfreigabe (z.ä B. \\\MyShare\CollegeCreditsTracker), und kopieren Sie alle Dateien im Ordner „Text-Editor”. 
+1.  Erstellen Sie einen Ordner in einer Netzwerkfreigabe (z. B. \\\MyShare\CollegeCreditsTracker), und kopieren Sie alle Dateien im Ordner „Text-Editor”. 
 2.  Bearbeiten Sie das <SourceLocation>-Element der Manifestdatei, damit es auf den Freigabepfad aus Schrittä 1 zeigt. 
-3.  Kopieren Sie das Manifest (CollegeCreditsTrackerManifest.xml) in eine Netzwerkfreigabe (z.ä B. \\\MyShare\MyManifests).
+3.  Kopieren Sie das Manifest (CollegeCreditsTrackerManifest.xml) in eine Netzwerkfreigabe (z. B. \\\MyShare\MyManifests).
 4.  Fügen Sie den Freigabepfad, unter dem das Manifest enthalten ist, als vertrauenswürdigen App-Katalog in Excel hinzu.
 
     a. Starten Sie Excel, und öffnen Sie ein leeres Arbeitsblatt.  
@@ -34,11 +34,11 @@ Am einfachsten können Sie Ihr Add-In bereitstellen und testen, indem Sie die Da
     
   b. Wählen Sie im Dialogfenster **Office-Add-Ins** die Option **Freigegebener Ordner** aus.
     
-  c. Wählen Sie **Studiencredits-Verfolgungsbeispiel**>**Einfügen**. The add-in opens in a task pane to the right of the current worksheet, as shown in the following figure. 
+  c. Wählen Sie **Studiencredits-Verfolgungsbeispiel**>**Einfügen**. Das Add-In wird in einem Aufgabenbereich geöffnet, wie in diesem Diagramm dargestellt. 
         
    ![Studiencredits-Verfolgungsbeispiel](../images/CollegeCreditsTracker_taskpane.PNG) 
 
-  d. Klicken Sie auf die Schaltfläche **Studiencreditsplaner erstellen**. This create the college credits tracker in the active sheet as shown in this diagram. 
+  d. Klicken Sie auf die Schaltfläche **Studiencreditsplaner erstellen**. Dabei wird die Studiencreditsverfolgung im aktiven Arbeitsblatt erstellt, wie in der folgenden Abbildung dargestellt. 
     
   ![Studiencredits-Verfolgungsbeispiel](../images/CollegeCreditsTracker_tracker.PNG)
 
