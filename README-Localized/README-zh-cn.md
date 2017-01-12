@@ -1,68 +1,69 @@
-# 适用于 Excel 2016 的大学学分跟踪程序任务窗格外接程序示例
+# <a name="college-credits-tracker-task-pane-add-in-sample-for-excel-2016"></a>适用于 Excel 2016 的大学学分跟踪程序任务窗格外接程序示例
 
 _适用于：Excel 2016_
 
 此任务窗格外接程序介绍如何在 Excel 2016 中使用 JavaScript API 创建大学学分跟踪程序。它有两种类型：文本编辑器和 Visual Studio。
 
-![大学学分跟踪程序示例](../images/CollegeCreditsTracker_tracker.PNG)
+![大学学分跟踪程序示例](../Images/CollegeCreditsTracker_tracker.PNG)
 
-## 尝试一下
-### 文本编辑器版本
+## <a name="try-it-out"></a>尝试一下
+### <a name="text-editor-version"></a>文本编辑器版本
 
-部署和测试外接程序最简单的方法是将文件复制到网络共享。
+部署和测试外接程序的最简单方法是将文件复制到网络共享中。
 
-1.  在网络共享上创建一个文件夹（如 \\\MyShare\CollegeCreditsTracker），然后复制文本编辑器文件夹中的所有文件。 
-2.  编辑清单文件的 <SourceLocation> 元素，使其指向步骤 1 中的共享位置。 
-3.  将清单 (CollegeCreditsTrackerManifest.xml) 复制到网络共享（例如 \\\MyShare\\MyManifests）。
-4.  添加将清单作为 Excel 中受信任的应用目录的共享位置。
+1.  将文本编辑器文件夹中的文件部署到你选择的服务器中。
+2.  编辑清单文件中的 \<SourceLocation\> 和 \<Url\> 元素，使其指向第 1 步中的托管位置（即 https://localhost）
+2.  在网络共享上创建一个文件夹（例如，\\\MyShare\CollegeCreditsTracker），然后复制文本编辑器文件夹中的所有文件。
+3.  将清单文件 (CollegeCreditsTrackerManifest.xml) 复制到网络共享（例如，\\\MyShare\MyManifests）中。
+4.  在 Excel 中将内含清单的共享位置添加为受信任的应用目录。
 
-    a.启动 Excel 并打开一个空白的电子表格。  
-    
-    b.选择**文件**选项卡，然后选择**选项**。
-    
-    c.选择**信任中心**，然后选择**信任中心设置**按钮。
-    
-    d.选择**受信任的应用目录**。
-    
-    e.在**目录 Url**框中，输入在第 1 步中创建的网络共享的路径，然后选择**添加目录**。
-    
-   f.  选中“**显示在菜单中**”复选框，然后选择“**确定**”。此时，系统会显示一条消息，提醒你注意你的设置将在 Office 下次启动时应用。 
-        
-5.  测试并运行外接程序。 
+    a.启动 Excel 并打开一个空白的电子表格。
 
-    a.在 Excel 2016 的**插入选项卡**中，选择**我的外接程序**。
-    
-    b.在**Office 外接程序**对话框中，选择**共享文件夹**。
-    
-    c.选择**大学学分跟踪器示例**>**插入**。 此时，系统会在当前工作表右侧的任务窗格中打开外接程序，如下图所示。 
-        
-   ![大学学分跟踪程序示例](../images/CollegeCreditsTracker_taskpane.PNG) 
+    b.依次选择“**文件**”选项卡和“**选项**”。
 
-    d.单击**创建大学学分规划器**按钮。 此操作将在活动工作表中创建大学学分跟踪程序，如此图所示。
-    
-  ![大学学分跟踪程序示例](../images/CollegeCreditsTracker_tracker.PNG)
+    c.依次选择“**信任中心**”和“**信任中心设置**”按钮。
 
-    e.使用**添加课程**选项卡添加一些课程，并查看数据和图表如何动态地更改。
-    
-### Visual Studio 版本
+    d.选择“**受信任的应用程序目录**”。
+
+    e.在“**目录 URL**”框中，输入你在第 1 步中创建的网络共享路径，然后选择“**添加目录**”。
+
+   f.  选中“**显示在菜单中**”复选框，然后选择“**确定**”。此时，系统会显示一条消息，提醒你注意你的设置将在 Office 下次启动时应用。
+
+5.  测试并运行外接程序。
+
+    a.在 Excel 2016 的“**插入**”选项卡中，选择“**我的外接程序**”。
+
+    b.在“**Office 外接程序**”对话框中，选择“**共享文件夹**”。
+
+    c.依次选择“**大学学分跟踪器示例**”>“**插入**”。此时，系统会在当前工作表右侧的任务窗格中打开外接程序，如下图所示。
+
+   ![大学学分跟踪程序示例](../Images/CollegeCreditsTracker_taskpane.PNG)
+
+    d.单击“**创建大学学分规划程序**”按钮。这会在活动工作表中创建大学学分跟踪程序，如下图所示。
+
+  ![大学学分跟踪程序示例](../Images/CollegeCreditsTracker_tracker.PNG)
+
+    e.使用“**添加课程**”选项卡添加一些课程，并动态查看数据和图表更新。
+
+### <a name="visual-studio-version"></a>Visual Studio 版本
 1.  将项目复制到本地文件夹，并在 Visual Studio 中打开 Excel-Add-in-JS-CollegeCreditsTracker.sln。
-2.  按 F5 生成并部署示例外接程序。Excel 启动并且外接程序会在空白工作簿右侧的任务窗格中打开，如下图所示。 
-        
-  ![大学学分跟踪程序示例](../images/CollegeCreditsTracker_taskpane.PNG) 
+2.  按 F5 生成并部署示例外接程序。Excel 启动并且外接程序会在空白工作簿右侧的任务窗格中打开，如下图所示。
 
-3.  单击“**创建大学学分规划器**”按钮。此操作将在活动工作表中创建大学学分跟踪程序，如此图所示。 
-    
-  ![大学学分跟踪程序示例](../images/CollegeCreditsTracker_tracker.PNG) 
-  
+  ![大学学分跟踪程序示例](../Images/CollegeCreditsTracker_taskpane.PNG)
+
+3.  单击“**创建大学学分规划器**”按钮。此操作将在活动工作表中创建大学学分跟踪程序，如此图所示。
+
+  ![大学学分跟踪程序示例](../Images/CollegeCreditsTracker_tracker.PNG)
+
 4. 使用“**添加课程**”选项卡添加一些课程，并查看数据和图表如何动态地更改。
 
 
-### 了解详细信息
+### <a name="learn-more"></a>了解详细信息
 
-在您开发外接程序时，Excel JavaScript API 可以提供更多功能。下面只是其中一些可用资源。 
+在您开发外接程序时，Excel JavaScript API 可以提供更多功能。下面只是其中一些可用资源。
 
 1.  [Excel 外接程序编程概述](https://github.com/OfficeDev/office-js-docs/blob/master/excel/excel-add-ins-programming-overview.md)
 2.  [适用于 Excel 的代码段资源管理器](http://officesnippetexplorer.azurewebsites.net/#/snippets/excel)
-3.  [Excel 外接程序代码示例](https://github.com/OfficeDev/office-js-docs/blob/master/excel/excel-add-ins-code-samples.md) 
+3.  [Excel 外接程序代码示例](https://github.com/OfficeDev/office-js-docs/blob/master/excel/excel-add-ins-code-samples.md)
 4.  [Excel 外接程序 JavaScript API 参考](https://github.com/OfficeDev/office-js-docs/blob/master/excel/excel-add-ins-javascript-reference.md)
-5.  [构建你的第一个 Excel 外接程序](https://github.com/OfficeDev/office-js-docs/blob/master/excel/build-your-first-excel-add-in.md)
+5.  [生成你的第一个 Excel 外接程序](https://github.com/OfficeDev/office-js-docs/blob/master/excel/build-your-first-excel-add-in.md)
