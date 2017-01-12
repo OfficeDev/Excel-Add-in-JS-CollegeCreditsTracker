@@ -4,7 +4,7 @@ _适用于：Excel 2016_
 
 此任务窗格外接程序介绍如何在 Excel 2016 中使用 JavaScript API 创建大学学分跟踪程序。它有两种类型：文本编辑器和 Visual Studio。
 
-![大学学分跟踪程序示例](../Images/CollegeCreditsTracker_tracker.PNG)
+![大学学分跟踪程序示例](../images/CollegeCreditsTracker_tracker.PNG)
 
 ## <a name="try-it-out"></a>尝试一下
 ### <a name="text-editor-version"></a>文本编辑器版本
@@ -37,11 +37,11 @@ _适用于：Excel 2016_
 
     c.依次选择“**大学学分跟踪器示例**”>“**插入**”。此时，系统会在当前工作表右侧的任务窗格中打开外接程序，如下图所示。
 
-   ![大学学分跟踪程序示例](../Images/CollegeCreditsTracker_taskpane.PNG)
+   ![大学学分跟踪程序示例](../images/CollegeCreditsTracker_taskpane.PNG)
 
     d.单击“**创建大学学分规划程序**”按钮。这会在活动工作表中创建大学学分跟踪程序，如下图所示。
 
-  ![大学学分跟踪程序示例](../Images/CollegeCreditsTracker_tracker.PNG)
+  ![大学学分跟踪程序示例](../images/CollegeCreditsTracker_tracker.PNG)
 
     e.使用“**添加课程**”选项卡添加一些课程，并动态查看数据和图表更新。
 
@@ -49,11 +49,11 @@ _适用于：Excel 2016_
 1.  将项目复制到本地文件夹，并在 Visual Studio 中打开 Excel-Add-in-JS-CollegeCreditsTracker.sln。
 2.  按 F5 生成并部署示例外接程序。Excel 启动并且外接程序会在空白工作簿右侧的任务窗格中打开，如下图所示。
 
-  ![大学学分跟踪程序示例](../Images/CollegeCreditsTracker_taskpane.PNG)
+  ![大学学分跟踪程序示例](../images/CollegeCreditsTracker_taskpane.PNG)
 
 3.  单击“**创建大学学分规划器**”按钮。此操作将在活动工作表中创建大学学分跟踪程序，如此图所示。
 
-  ![大学学分跟踪程序示例](../Images/CollegeCreditsTracker_tracker.PNG)
+  ![大学学分跟踪程序示例](../images/CollegeCreditsTracker_tracker.PNG)
 
 4. 使用“**添加课程**”选项卡添加一些课程，并查看数据和图表如何动态地更改。
 

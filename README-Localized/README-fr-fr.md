@@ -4,7 +4,7 @@ _S’applique à : Excel 2016_
 
 Ce complément de volet Office montre comment créer un outil de suivi des crédits universitaires à l’aide des API JavaScript dans Excel 2016. Il a deux versions : éditeur de texte et Visual Studio.
 
-![Exemple d’outil de suivi des crédits universitaires](../Images/CollegeCreditsTracker_tracker.PNG)
+![Exemple d’outil de suivi des crédits universitaires](../images/CollegeCreditsTracker_tracker.PNG)
 
 ## <a name="try-it-out"></a>Essayez !
 ### <a name="text-editor-version"></a>Version d’éditeur de texte
@@ -37,11 +37,11 @@ Pour déployer et tester votre complément, le plus simple consiste à copier le
 
     c.  Choisissez **Exemple de suivi des crédits universitaires**>**Insertion**. Le complément s’ouvre dans un volet Office à droite de la feuille de calcul active, comme indiqué dans l’illustration suivante.
 
-   ![Exemple d’outil de suivi des crédits universitaires](../Images/CollegeCreditsTracker_taskpane.PNG)
+   ![Exemple d’outil de suivi des crédits universitaires](../images/CollegeCreditsTracker_taskpane.PNG)
 
     d.  Cliquez sur le bouton **Créer un planificateur de crédits universitaires**. Cela permet de créer le suivi des crédits universitaires dans la feuille de calcul active, comme indiqué dans ce diagramme.
 
-  ![Exemple d’outil de suivi des crédits universitaires](../Images/CollegeCreditsTracker_tracker.PNG)
+  ![Exemple d’outil de suivi des crédits universitaires](../images/CollegeCreditsTracker_tracker.PNG)
 
     e.  Ajoutez des cours à l’aide de l’onglet **Ajouter un cours** et observez la façon dont les données et le graphique changent de manière dynamique.
 
@@ -49,11 +49,11 @@ Pour déployer et tester votre complément, le plus simple consiste à copier le
 1.  Copiez le projet dans un dossier local et ouvrez le fichier Excel-Add-in-JS-CollegeCreditsTracker.sln dans Visual Studio.
 2.  Appuyez sur F5 pour créer et déployer l’exemple de complément. Excel démarre et le complément s’ouvre dans un volet Office à droite de la feuille de calcul active, comme indiqué dans l’illustration suivante.
 
-  ![Exemple d’outil de suivi des crédits universitaires](../Images/CollegeCreditsTracker_taskpane.PNG)
+  ![Exemple d’outil de suivi des crédits universitaires](../images/CollegeCreditsTracker_taskpane.PNG)
 
 3.  Cliquez sur le bouton **Créer un planificateur de crédits universitaires**. Cela permet de créer le suivi des crédits universitaires dans la feuille de calcul active, comme indiqué dans ce diagramme.
 
-  ![Exemple d’outil de suivi des crédits universitaires](../Images/CollegeCreditsTracker_tracker.PNG)
+  ![Exemple d’outil de suivi des crédits universitaires](../images/CollegeCreditsTracker_tracker.PNG)
 
 4. Ajoutez des cours à l’aide de l’onglet **Ajouter un cours** et observez la façon dont les données et le graphique changent de manière dynamique.
 

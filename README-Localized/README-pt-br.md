@@ -4,7 +4,7 @@ _Aplica-se a: Excel 2016_
 
 Este suplemento do painel de tarefas mostra como criar um controlador de créditos acadêmicos usando as APIs JavaScript no Excel 2016. Há dois tipos: o editor de texto e o Visual Studio.
 
-![Exemplo de Controlador de créditos acadêmicos](../Images/CollegeCreditsTracker_tracker.PNG)
+![Exemplo de Controlador de créditos acadêmicos](../images/CollegeCreditsTracker_tracker.PNG)
 
 ## <a name="try-it-out"></a>Experimente
 ### <a name="text-editor-version"></a>Versão do editor de texto
@@ -37,11 +37,11 @@ A maneira mais fácil de implantar e testar o suplemento é copiar os arquivos p
 
     c.  Escolha **Exemplo de Controlador de Créditos Acadêmicos**>**Inserir**. O suplemento abre em um painel de tarefas à direita da planilha atual, conforme mostrado na figura a seguir.
 
-   ![Exemplo de Controlador de créditos acadêmicos](../Images/CollegeCreditsTracker_taskpane.PNG)
+   ![Exemplo de Controlador de créditos acadêmicos](../images/CollegeCreditsTracker_taskpane.PNG)
 
     d.  Clique no botão **Criar Planejador de Créditos Acadêmicos**. Essa opção cria o controlador de créditos acadêmicos na planilha ativa, conforme mostrado neste diagrama.
 
-  ![Exemplo de Controlador de créditos acadêmicos](../Images/CollegeCreditsTracker_tracker.PNG)
+  ![Exemplo de Controlador de créditos acadêmicos](../images/CollegeCreditsTracker_tracker.PNG)
 
     e.  Adicione alguns cursos usando a guia **Adicionar um curso** e veja como os dados e o gráfico mudam dinamicamente.
 
@@ -49,11 +49,11 @@ A maneira mais fácil de implantar e testar o suplemento é copiar os arquivos p
 1.  Copie o projeto para uma pasta local e abra o Excel-Add-in-JS-CollegeCreditsTracker.sln no Visual Studio.
 2.  Pressione F5 para criar e implantar o suplemento de exemplo. O Excel inicia e o suplemento abre em um painel de tarefas à direita da planilha em branco, conforme mostrado na figura a seguir.
 
-  ![Exemplo de Controlador de créditos acadêmicos](../Images/CollegeCreditsTracker_taskpane.PNG)
+  ![Exemplo de Controlador de créditos acadêmicos](../images/CollegeCreditsTracker_taskpane.PNG)
 
 3.  Clique no botão **Criar Planejador de Créditos Acadêmicos**. Essa opção cria o controlador de créditos acadêmicos na planilha ativa, conforme mostrado neste diagrama.
 
-  ![Exemplo de Controlador de créditos acadêmicos](../Images/CollegeCreditsTracker_tracker.PNG)
+  ![Exemplo de Controlador de créditos acadêmicos](../images/CollegeCreditsTracker_tracker.PNG)
 
 4. Adicione alguns cursos usando a guia **Adicionar um curso** e veja como os dados e o gráfico mudam dinamicamente.
 

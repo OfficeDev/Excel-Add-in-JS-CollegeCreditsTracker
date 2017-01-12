@@ -4,7 +4,7 @@ _適用於：Excel 2016_
 
 這個工作窗格增益集示範如何使用 Excel 2016 中的 JavaScript API 來建立大學學分追蹤器。共有兩種型態︰文字編輯器和 Visual Studio。
 
-![大學學分追蹤器範例](../Images/CollegeCreditsTracker_tracker.PNG)
+![大學學分追蹤器範例](../images/CollegeCreditsTracker_tracker.PNG)
 
 ## <a name="try-it-out"></a>進行測試
 ### <a name="text-editor-version"></a>文字編輯器版本
@@ -37,11 +37,11 @@ _適用於：Excel 2016_
 
     c.選擇 **[大學學分追蹤器範例]** > **[插入]**。增益集會在目前工作表右側的工作窗格中開啟，如下圖所示。
 
-   ![大學學分追蹤器範例](../Images/CollegeCreditsTracker_taskpane.PNG)
+   ![大學學分追蹤器範例](../images/CollegeCreditsTracker_taskpane.PNG)
 
     d.按一下 **[建立大學學分規劃]** 按鈕。這樣會在使用中工作表中建立大學學分追蹤器，如此圖表所示。
 
-  ![大學學分追蹤器範例](../Images/CollegeCreditsTracker_tracker.PNG)
+  ![大學學分追蹤器範例](../images/CollegeCreditsTracker_tracker.PNG)
 
     e.使用 **[新增課程]** 索引標籤來新增一些課程，並查看資料和圖表如何動態變更。
 
@@ -49,11 +49,11 @@ _適用於：Excel 2016_
 1.  將專案複製到本機資料夾，並在 Visual Studio 中開啟 Excel-Add-in-JS-CollegeCreditsTracker.sln。
 2.  按 F5 建置及部署範例增益集。Excel 會啟動，且增益集會在工作表右側空白部分的工作窗格中開啟，如下圖所示。
 
-  ![大學學分追蹤器範例](../Images/CollegeCreditsTracker_taskpane.PNG)
+  ![大學學分追蹤器範例](../images/CollegeCreditsTracker_taskpane.PNG)
 
 3.  按一下 **[建立大學學分規劃]** 按鈕。這樣會在使用中工作表中建立大學學分追蹤器，如此圖表所示。
 
-  ![大學學分追蹤器範例](../Images/CollegeCreditsTracker_tracker.PNG)
+  ![大學學分追蹤器範例](../images/CollegeCreditsTracker_tracker.PNG)
 
 4. 使用 **[新增課程]** 索引標籤來新增一些課程，並查看資料和圖表如何動態變更。
 

@@ -4,7 +4,7 @@ _適用対象:Excel 2016_
 
 この作業ウィンドウ アドインには、Excel 2016 で JavaScript API を使用して、大学単位追跡ツールを作成する方法が示されます。テキスト エディターと Visual Studio のいずれかを選択できます。
 
-![大学単位追跡ツールのサンプル](../Images/CollegeCreditsTracker_tracker.PNG)
+![大学単位追跡ツールのサンプル](../images/CollegeCreditsTracker_tracker.PNG)
 
 ## <a name="try-it-out"></a>お試しください。
 ### <a name="text-editor-version"></a>テキスト エディターのバージョン
@@ -37,11 +37,11 @@ _適用対象:Excel 2016_
 
     c.**[大学の単位の追跡ツールのサンプル]**>**[挿入]** の順に選択します。次の図に示すように、現在のワークシートの右側の作業ウィンドウでアドインが開きます。
 
-   ![大学単位追跡ツールのサンプル](../Images/CollegeCreditsTracker_taskpane.PNG)
+   ![大学単位追跡ツールのサンプル](../images/CollegeCreditsTracker_taskpane.PNG)
 
     d.**[大学の単位のプランナーの作成]** ボタンをクリックします。この操作により、次の図に示されているように、作業中のシートに大学の単位の追跡ツールが作成されます。
 
-  ![大学単位追跡ツールのサンプル](../Images/CollegeCreditsTracker_tracker.PNG)
+  ![大学単位追跡ツールのサンプル](../images/CollegeCreditsTracker_tracker.PNG)
 
     e.**[コースの追加]** タブを使用してコースを追加し、データとグラフがどのように動的に変化するかを確認します。
 
@@ -49,11 +49,11 @@ _適用対象:Excel 2016_
 1.  プロジェクトをローカル フォルダーにコピーし、Visual Studio で Excel-Add-in-JS-CollegeCreditsTracker.sln を開きます。
 2.  F5 キーを押して、サンプル アドインをビルドおよび展開します。Excel が起動し、次の図に示すように、空白のワークシートの右側の作業ウィンドウでアドインが開きます。
 
-  ![大学単位追跡ツールのサンプル](../Images/CollegeCreditsTracker_taskpane.PNG)
+  ![大学単位追跡ツールのサンプル](../images/CollegeCreditsTracker_taskpane.PNG)
 
 3.  **[大学単位プランナーの作成]** ボタンをクリックします。この操作により、次の図に示されているように、作業中のシートに大学単位追跡ツールが作成されます。
 
-  ![大学単位追跡ツールのサンプル](../Images/CollegeCreditsTracker_tracker.PNG)
+  ![大学単位追跡ツールのサンプル](../images/CollegeCreditsTracker_tracker.PNG)
 
 4. **[コースの追加**] タブを使用してコースを追加し、データとグラフがどのように動的に変化するかを確認します。
 
