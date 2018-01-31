@@ -1,0 +1,19 @@
+### YamlMime:Sample
+sample:
+- name: College Credits Tracker Task Pane Add-in Sample for Excel 2016
+  path: ''
+  description: A task pane add-in sample that shows how to create a college credits tracker using the JavaScript APIs in Excel 2016.
+  readme: ''
+  generateZip: FALSE
+  isLive: TRUE
+  technologies:
+  - Office Add-in
+  azureDeploy: ''
+  author: umasubra
+  platforms: []
+  languages:
+  - JavaScript
+  extensions:
+    products:
+    - Excel
+    scenarios: []
